@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .navbar, .footer, .jumbotron {
+            background-color: #1e1e1e;
+        }
+        .navbar-brand, .nav-link, .footer a {
+            color: #e0e0e0;
+        }
+        .btn-outline-secondary {
+            border-color: #e0e0e0;
+            color: #e0e0e0;
+        }
+        .btn-outline-secondary:hover {
+            background-color: #e0e0e0;
+            color: #121212;
+        }
+        .card {
+            background-color: #1e1e1e;
+        }
+        .card-title, .card-text {
+            color: #e0e0e0;
+        }
+        .form-control, .btn-primary {
+            background-color: #333333;
+            border: none;
+            color: #e0e0e0;
+        }
+        .btn-primary:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Escape</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center bg-light" style="background: url('img/background.jpg') no-repeat center center; background-size: cover;">
+        <h1 class="display-4">Shall we play together?</h1>
+        <p class="lead">Let's help the gamers around the world!</p>
+        <a href="#" class="btn btn-primary">View Latest Posts</a>
+    </header>
+
+    <!-- Categories -->
+    <div class="container text-center mb-4">
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">Hints</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">News</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">Minecraft</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">Tutorials</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">Theories</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-secondary">Adventure</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Posts -->
+    <div class="container featured-posts">
+        <h2 class="text-center">Featured Posts</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="img/card1.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle1</h5>
+                        <p class="card-text">Subtitle1.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="img/card2.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle2</h5>
+                        <p class="card-text">Subtitle2.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Most Recent -->
+    <div class="container">
+        <h2 class="text-center">Most Recent</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card3.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle3</h5>
+                        <p class="card-text">Subtitle3.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card4.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle4</h5>
+                        <p class="card-text">Subtitle4.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card5.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle5</h5>
+                        <p class="card-text">Subtitle5.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card6.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle6</h5>
+                        <p class="card-text">Subtitle6.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card7.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle7</h5>
+                        <p class="card-text">Subtitle7.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/card8.jpg" class="card-img-top" alt="CAMP">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogtitle8</h5>
+                        <p class="card-text">Subtitle8.</p>
+                        <p class="card-text"><small class="text-muted">By Lucas Tino on month number, Year</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="jumbotron text-center bg-dark text-white mb-0">
+        <h2>Continue with us!</h2>
+        <form class="form-inline justify-content-center" action="subscribe.php" method="POST">
+            <!--Aviso:criar subscribe.php-->
+            <div class="form-group mb-2">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 ml-2">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Escape. All rights reserved.</p>
+        <div>
+            <a href="#" class="text-white mx-2">Home</a>
+            <a href="#" class="text-white mx-2">Categories</a>
+            <a href="#" class="text-white mx-2">About</a>
+            <a href="#" class="text-white mx-2">Contact</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

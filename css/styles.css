@@ -1,0 +1,9 @@
+.jumbotron {
+    background: url('../img/header-bg.jpg') center center / cover no-repeat;
+    color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
